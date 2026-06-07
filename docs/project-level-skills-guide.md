@@ -8,16 +8,16 @@
   <img src="https://img.shields.io/badge/Codex-project--level--skills-black" />
   <img src="https://img.shields.io/badge/Claude_Code-supported-purple" />
   <img src="https://img.shields.io/badge/Skill_File-SKILL.md-blue" />
-  <img src="https://img.shields.io/badge/Guide-practical-success" />
+  <img src="https://img.shields.io/badge/No_paste-required-success" />
 </p>
 
 </div>
 
 > This guide explains how to install, trigger, verify, and reuse prepared `SKILL.md` files without pasting them into every conversation.
 
-```text
-prepared skills -> project-level installation -> automatic triggering -> task execution -> usage verification
-```
+<p align="center">
+  <img src="assets/project-level-skills-overview.png" width="720" alt="Project-level skills workflow">
+</p>
 
 ## When should you use this guide?
 
@@ -32,15 +32,20 @@ Use this guide if you want to:
 
 ## Workflow
 
-```mermaid
-flowchart LR
-    A[Prepared SKILL.md files] --> B[Install into project-level skill directory]
-    B --> C[Start Codex / Claude Code from project root]
-    C --> D[Ask a normal task]
-    D --> E[Skill is triggered]
-    E --> F[Read data and follow skill workflow]
-    F --> G[Return final answer]
-    G --> H[Verify whether skill was used]
+| Step | What happens |
+|---|---|
+| 1. Install | Put prepared `SKILL.md` folders under `.codex/skills/` or `.claude/skills/` |
+| 2. Use | Ask a normal task from the project root; the tool can trigger the matching skill |
+| 3. Verify | Ask a follow-up check to confirm whether the skill was loaded and followed |
+
+```text
+Install skill files
+        ↓
+Ask a normal task
+        ↓
+Skill-guided execution
+        ↓
+Verify skill usage
 ```
 
 ## Recommended Project Layout
@@ -199,9 +204,7 @@ Return only the final answer.
 
 Why this triggers the skill:
 
-```text
-The task asks which Fee IDs apply to a merchant on a specific date, so it matches Applicable_Fee_IDs.
-```
+> This task matches `Applicable_Fee_IDs` because it asks which fee rules apply to a merchant on a specific date.
 
 Skill-guided workflow:
 
@@ -251,9 +254,7 @@ Return only the final answer.
 
 Why this triggers the skill:
 
-```text
-The task asks for an average processing fee under a specified transaction value, card scheme, and credit-card condition, so it matches Average_Fee_Estimation.
-```
+> This task matches `Average_Fee_Estimation` because it asks for an average processing fee under a specified transaction value, card scheme, and credit-card condition.
 
 Skill-guided workflow:
 
