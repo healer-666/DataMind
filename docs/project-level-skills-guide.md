@@ -21,16 +21,16 @@
 
 ## 🎬 Demo
 
-This short demo shows a complete project-level skill workflow on a real CSV analysis task. The demo starts from a clean project folder, checks that the `csv-analysis` skill is available in Codex, runs a Chicago Food Inspections analysis task, generates a Markdown report and a bar chart, and verifies whether the skill was actually loaded and followed.
+This short demo shows a complete project-level skill workflow on a real CSV analysis task. It starts from a clean project folder, checks the available Codex skill with `/skills`, runs a Chicago Food Inspections analysis task, generates a Markdown report and a bar chart, and verifies whether the skill was loaded and followed.
 
 <p align="center">
-  <a href="https://github.com/user-attachments/assets/your-video-id">
+  <a href="https://github.com/healer-666/DataMind/releases/download/demo-v1/demo.mp4">
     <img src="assets/demo-thumbnail.png" width="720" alt="Project-level skills demo">
   </a>
 </p>
 
 <p align="center">
-  <sub>Click the image to watch the demo: install a project-level skill, run a CSV analysis task, generate outputs, and verify skill usage.</sub>
+  <sub>Click the image to watch the demo video.</sub>
 </p>
 
 ## 🎯 When should you use this guide?
