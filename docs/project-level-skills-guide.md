@@ -21,6 +21,8 @@
 
 ## 🎬 Demo
 
+This short demo shows a complete project-level skill workflow on a real CSV analysis task. The demo starts from a clean project folder, checks that the `csv-analysis` skill is available in Codex, runs a Chicago Food Inspections analysis task, generates a Markdown report and a bar chart, and verifies whether the skill was actually loaded and followed.
+
 <p align="center">
   <a href="https://github.com/user-attachments/assets/your-video-id">
     <img src="assets/demo-thumbnail.png" width="720" alt="Project-level skills demo">
@@ -28,7 +30,7 @@
 </p>
 
 <p align="center">
-  <sub>Demo: install a project-level skill, run a task, and verify whether the skill was loaded.</sub>
+  <sub>Click the image to watch the demo: install a project-level skill, run a CSV analysis task, generate outputs, and verify skill usage.</sub>
 </p>
 
 ## 🎯 When should you use this guide?
