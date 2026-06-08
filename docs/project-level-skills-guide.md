@@ -19,7 +19,19 @@
   <img src="assets/project-level-skills-overview.png" width="720" alt="Project-level skills workflow">
 </p>
 
-## When should you use this guide?
+## 🎬 Demo
+
+<p align="center">
+  <a href="https://github.com/user-attachments/assets/your-video-id">
+    <img src="assets/demo-thumbnail.png" width="720" alt="Project-level skills demo">
+  </a>
+</p>
+
+<p align="center">
+  <sub>Demo: install a project-level skill, run a task, and verify whether the skill was loaded.</sub>
+</p>
+
+## 🎯 When should you use this guide?
 
 Use this guide if you want to:
 
@@ -30,7 +42,7 @@ Use this guide if you want to:
 | Keep workflows stable | Make repeated tasks follow the same rules and file-reading process |
 | Verify execution | Check whether the skill was actually loaded and followed |
 
-## Workflow
+## 🧭 Workflow
 
 | Step | What happens |
 |---|---|
@@ -48,7 +60,7 @@ Skill-guided execution
 Verify skill usage
 ```
 
-## Recommended Project Layout
+## 🗂️ Recommended Project Layout
 
 Keep source skills and data in stable project directories:
 
@@ -67,7 +79,7 @@ project-root/
 
 Then copy the skills you want to enable into the project-level skill directory for Codex or Claude Code.
 
-## Skill File Requirements
+## 🧩 Skill File Requirements
 
 Each skill should be a standalone folder with a `SKILL.md` file:
 
@@ -94,7 +106,7 @@ Keep these requirements in mind:
 - Make the description specific, and quote it if it contains YAML-sensitive punctuation.
 - Put long references, scripts, or examples in subfolders if needed.
 
-## Installation
+## 🔧 Installation
 
 | Tool | Project-level skill directory |
 |---|---|
@@ -127,7 +139,7 @@ After copying the skill folders:
 
 If your Codex environment uses `.agents/skills/` instead of `.codex/skills/`, replace `.codex/skills/` with the directory used by your environment. The important point is that the tool launch location, command execution location, and skill installation location all belong to the same project.
 
-## Confirm the Setup
+## ✅ Confirm the Setup
 
 Project-level skills only apply to the project where they are installed. If you start the tool from another directory, the configured skills may not appear.
 
@@ -137,7 +149,7 @@ Project-level skills only apply to the project where they are installed. If you 
 | In-tool check | Start Codex / Claude Code from the project root or a child directory, then open the skill list or enter `/skills` if supported |
 | Invocation check | Write `Use <skill-name>` in a task, mention the skill name, or enter `/<skill-name>` if direct skill invocation is supported |
 
-## How to Use
+## 🚀 How to Use
 
 After installation, do not paste the `SKILL.md` content into the conversation. Ask the task normally and provide the required data path when needed.
 
@@ -163,7 +175,7 @@ You can also explicitly call a specific skill:
 Use <skill_name> to answer this question.
 ```
 
-## Verify Skill Usage
+## 🔍 Verify Skill Usage
 
 After the task is complete, ask a short follow-up:
 
@@ -177,7 +189,7 @@ used_data_files:
 evidence:
 ```
 
-## Examples
+## 🧪 Examples
 
 ### Example 1: Query applicable fee IDs
 
@@ -366,7 +378,7 @@ answer_match: yes
 
 </details>
 
-## Troubleshooting
+## 🔔 Troubleshooting
 
 ### Skill does not appear
 
