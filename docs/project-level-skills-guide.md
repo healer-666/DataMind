@@ -27,7 +27,7 @@ The demo uses the ready-to-use [`csv-analysis`](skills-example/csv-analysis/) sk
 
 <p align="center">
   <a href="https://github.com/healer-666/DataMind/releases/download/demo-v1/demo.mp4">
-    <img src="assets/demo-thumbnail.png" width="720" alt="Project-level skills demo">
+    <img src="assets/demo-play.svg" width="720" alt="Project-level skills demo">
   </a>
 </p>
 
