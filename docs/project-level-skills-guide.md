@@ -26,14 +26,19 @@ This short demo shows a complete project-level skill workflow on a real CSV anal
 The demo uses the ready-to-use [`csv-analysis`](skills-example/csv-analysis/) skill provided in this repository.
 
 <p align="center">
-  <a href="https://github.com/healer-666/DataMind/releases/download/demo-v1/demo.mp4">
+  <a href="https://youtu.be/SVzxxnxm6Gk">
     <img src="assets/demo-play.svg" width="720" alt="Project-level skills demo">
   </a>
 </p>
 
 <p align="center">
-  <sub>Click the image to watch the demo video.</sub>
+  <sub>Click the image to watch the demo on YouTube.</sub>
 </p>
+
+Watch the demo in either way:
+
+- [Watch online on YouTube](https://youtu.be/SVzxxnxm6Gk)
+- [Download the MP4 from GitHub Releases](https://github.com/healer-666/DataMind/releases/download/demo-v1/demo.mp4)
 
 ## 🎯 When should you use this guide?
 
